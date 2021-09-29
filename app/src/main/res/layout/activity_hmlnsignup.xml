@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hmlnsignup">
+
+    <EditText
+        android:id="@+id/txt_fullName"
+        android:layout_width="355dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/emaillogin"
+        android:hint="  Full Name"
+        android:inputType="textEmailAddress"
+        android:textSize="25dp" />
+    <EditText
+        android:id="@+id/SignUpEmail"
+        android:layout_width="355dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/txt_fullName"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/emaillogin"
+        android:textSize="25dp"
+        android:hint="  Email"/>
+    <EditText
+        android:id="@+id/SignUpPass"
+        android:layout_width="355dp"
+        android:layout_height="61dp"
+        android:layout_below="@id/SignUpEmail"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/emaillogin"
+        android:hint="  Password"
+        android:inputType="textPassword"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/SignUpRePass"
+        android:layout_width="355dp"
+        android:layout_height="61dp"
+        android:layout_below="@id/SignUpPass"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/emaillogin"
+        android:hint="  Re-enter Password"
+        android:inputType="textPassword"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnsignup2"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/SignUpRePass"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rectangle"
+        android:text="Sign-up" />
+
+
+
+
+
+</RelativeLayout>
